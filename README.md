@@ -6,3 +6,13 @@ The model was trained with in the inputs the coordinates of a bounding box speci
 and the label of the size of the box. 
 
 For the metric, we choose the IOU metric for the regression problem and the accuracy for the classification problem. 
+
+## Requirements
+- numpy == 1.17.2
+- keras == 2.3.1
+- tensorflow == 2.1.0
+- matplotlib == 3.1.1
+- tqdm == 4.36.1
+- cv2 == 4.1.2
+- sklearn == 0.21.3
+- pandas == 0.25.1
